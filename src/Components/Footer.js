@@ -22,24 +22,12 @@ function Footer() {
                       Flavor<span>folio</span>
                       
             </div>
-            <a href="" className='pt-5' style={{textDecoration:'none',color:'white'}}>Add new recipie</a>
         </Link>
 
             
             </Col>
        
-        <Col lg={4}>
-            <h5 style={{color:"black"}}>Contact Us</h5>
-            <input type="email" placeholder='Email' className='form-control pe-5' />
-            <div className='text-center mt-2'><button className='btn btn-light text-danger'><b>Send</b></button></div>
-            <div className='d-flex justify-content-around mt-3'>
-            <i class="fa-brands fa-github" ></i>
-            <i class="fa-brands fa-linkedin" ></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram" ></i>
-            </div>
-        </Col>
+       
       </Row>
     </div>
   )
