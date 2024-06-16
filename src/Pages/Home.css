@@ -1,0 +1,82 @@
+.add-btn{
+    background-color: #a33a14;
+    color: white;
+    border: none;
+    padding: 13px 24px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+  
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.diamond-grid {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px; /* Increased gap between images */
+    transform: rotate(45deg);
+  }
+  
+  .diamond {
+    width: 140px; /* Adjusted size of diamond */
+    height: 140px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  
+  .diamond img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotate(-45deg);
+    transition: transform 0.3s, width 0.3s, height 0.3s; /* Added width and height transitions */
+  }
+  
+  .diamond:hover img {
+    transform: rotate(-45deg) scale(1.1); /* Enlarge image on hover */
+  }
+
+  .card{
+    box-shadow: rgba(175, 37, 3, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+
+ .card .card-button{
+    background-color: #a33a14;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 0;
+    transition: background-color 0.3s;
+  }
+ .card .card-button:hover {
+    background-color:white ;
+    color: #a33a14;
+
+    
+  }
+
+
+ 
+  
+  
+  
+ 

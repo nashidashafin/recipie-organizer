@@ -1,0 +1,15 @@
+foot-btn{
+    background-color: #a33a14;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 0;
+    transition: background-color 0.3s;
+}
+
+  /* }
+ .card .card-button:hover {
+    background-color:white ;
+    color: #a33a14; */
